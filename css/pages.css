@@ -1,0 +1,149 @@
+header {
+	position: static;
+}
+
+header .logo img.logo-light {
+	top: 5%;
+}
+
+.cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 5em;
+}
+
+aside {
+	background-color: white;
+	margin: 0 .5em;
+	border-radius: .25em;
+	margin-top: 3.85em;
+	width: 20%;
+}
+
+aside h2.section-title {
+	color: #F7A720;
+	text-align: center;
+	margin: 1em 0 0 0;
+}
+
+aside hr {
+	background-color: #F7A720;
+	width: 10%;
+}
+
+aside .slider-dots .dot {
+	color: #303030;
+	padding: 1em;
+	cursor: pointer;
+}
+
+aside .slider-dots .dot-active {
+	background-color: #303030;
+	color: #F7A720;
+}
+
+aside .slider-dots .dot:hover {
+	transition: .25s;
+	text-decoration: underline;
+	background-color: #F7A720;
+}
+
+aside .slider-dots .dot-active:hover {
+	color: #303030;
+}
+
+main {
+	text-align: center;
+	margin: 0 .5em;
+	width: 150%;
+}
+
+.products {
+	width: 100%;
+	padding: 0;
+}
+
+.products .slider .slider-item {
+	animation: fadeIn .5s linear;
+}
+
+.products .items {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.products .items.items-value-1 .products-item {
+	width: 20%;
+}
+
+.products .items.items-value-2 .products-item {
+	width: 31.75%;
+}
+
+.products .items .products-item {
+	overflow: hidden;
+	margin-bottom: 1em;
+	border-radius: .25em;
+	width: 100%;
+	height: 100%;
+}
+
+.products .items .products-item img.w-25 {
+	width: 25%;
+}
+
+/*.products .items .products-item:only-child {
+	width: 31.75%;
+}*/
+
+.products .items .products-item h3 {
+	color: #F7A720;
+	font-size: 1.25em;
+	line-height: 1em;
+	margin: .5em 0;
+}
+
+.products .items .products-item h4 {
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+
+.products .items .products-item .product-rolls,
+.products .items .products-item .product-pies-2, 
+.products .items .products-item .coffee,
+.products .items .products-item .black-tea,
+.products .items .products-item .black-tea-arom,
+.products .items .products-item .green-tea,
+.products .items .products-item .green-tea-arom,
+.products .items .products-item .tea-drink,
+.products .items .products-item .product-biscuits,
+.products .items .products-item .product-sweets,
+.products .items .products-item .product-sugar {
+	text-align: left;
+}
+
+.products .items .products-item p {
+	padding: 0 1em .5em 1em;
+	display: block;
+	color: #303030;
+	text-align: justify;
+	font-size: .75em;
+	text-align: center;
+}
+
+.products .items .products-item .product-item span {
+	line-height: 1.5em;
+}
+
+.products .items .products-item .product-item span:nth-child(2) {
+	color: #F7A720;
+	font-weight: bold;
+}
+
+footer {
+	background-color: white;
+	width: 100%;
+	margin-top: 5em;
+}
